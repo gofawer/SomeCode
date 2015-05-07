@@ -6,7 +6,8 @@ CONFIG -= qt
 CONFIG += c++11
 QMAKE_CXXFLAGS += -std=c++11
 
-SOURCES += main.cpp
+SOURCES += \
+    mainLink.cpp
 
 include(deployment.pri)
 qtcAddDeployment()
